@@ -11,4 +11,7 @@ WHILE (@counter <= 1000000)
 
         IF (@counter % 100000 = 0)
             PRINT RTRIM(@counter) + ' rows inserted'
-    END
+    END;
+
+SELECT count(*)
+FROM Employees;
